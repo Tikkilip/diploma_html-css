@@ -11,13 +11,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon.png" />
     <link rel="stylesheet" href="css/history.css" />
   </head>
   <body>
     <div class="background__wrapper">
       <div class="wrapper">
         <header class="header">
-          <div class="header__wrapper">
+          <nav class="header__wrapper">
             <div class="header__logo">
               <a href="index.html" class="header__link link">
                 <img class="header__logo-img" src="icons/logo_black.svg" alt="logo" />
@@ -28,26 +29,28 @@
               <input class="header__input-search" type="search" name="search" placeholder="Search art" />
               <img class="header__loupe" src="icons/search_black.svg" alt="loupe" />
             </form>
-            <ul class="header__list">
-              <li class="header__list-item">
-                <a href="arts.html" class="link">Arts</a>
-              </li>
-              <li class="header__list-item">
-                <a href="games.html" class="link">Games</a>
-              </li>
-              <li class="header__list-item">
-                <a href="history.html" class="link underlined__link">History</a>
-              </li>
-              <li class="header__list-item">
-                <a href="#" class="link">
-                  <img class="header__user" src="icons/user_black.svg" alt="profile pic" />
-                </a>
-              </li>
-            </ul>
-          </div>
+            <nav class="navigation">
+              <ul class="header__list">
+                <li class="header__list-item">
+                  <a href="arts.html" class="link">Arts</a>
+                </li>
+                <li class="header__list-item">
+                  <a href="games.html" class="link">Games</a>
+                </li>
+                <li class="header__list-item">
+                  <a href="history.html" class="link underlined__link">History</a>
+                </li>
+                <li class="header__list-item">
+                  <a href="#" class="link">
+                    <img class="header__user" src="icons/user_black.svg" alt="profile pic" />
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </nav>
         </header>
 
-        <div class="header__responsive">
+        <nav class="header__responsive">
           <form class="responsive-loupe" action="https://echo.htmlacademy.ru">
             <button class="header__loupe-btn"><img class="header__responsive-loupe-pic" src="icons/search_black.svg" alt="responsive-loupe" /></button>
             <input type="text" class="header__search-input" name="search-btn" placeholder="Search art" />
@@ -79,7 +82,7 @@
               </li>
             </ul>
           </div>
-        </div>
+        </nav>
 
         <main class="main">
           <h1 class="main__title">HISTORY</h1>
